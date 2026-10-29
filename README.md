@@ -32,7 +32,3 @@ pip install -e .
 | `results/figures/` | Main and supplementary figures |
 | `results/supplementary/paper/` | Supplementary Information of the paper |
 | `results/RESULTS_REPORT.md` | All reported numbers |
-
-## Licence
-
-Code: MIT. Third-party data keep their own terms (see `data/raw/README.md`). Citation: see `CITATION.cff`.
