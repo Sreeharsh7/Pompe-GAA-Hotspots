@@ -1,0 +1,10 @@
+name: gaa-hotspot
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - r-base
+  - r-seqinr=4.2
+  - pip
+  - pip:
+      - -r requirements.txt

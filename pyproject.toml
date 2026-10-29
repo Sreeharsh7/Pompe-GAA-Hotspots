@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gaa-hotspot"
+version = "1.0.0"
+description = "Network-based hotspot prediction and substitution severity scoring for human acid alpha-glucosidase (GAA) in Pompe disease"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Sreeharsh K"}, {name = "Manjari Kiran"}, {name = "Mohd. Akif"}]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

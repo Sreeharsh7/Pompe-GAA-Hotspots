@@ -1,0 +1,7 @@
+vote_rule,flagged_by_at_least_one_model,consensus,consensus_known_positions,novel_consensus_hotspots,novel_with_5_votes
+probability 0.5,499,362,164,198,118
+Youden optimum,467,367,168,199,103
+prevalence-matched,322,201,115,86,41
+85 % specificity,311,200,113,87,39
+90 % specificity,253,144,92,52,23
+95 % specificity,162,80,52,28,8

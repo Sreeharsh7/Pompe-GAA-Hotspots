@@ -1,0 +1,53 @@
+residue,residue_label,wt,domain,votes,vote_lr,vote_rf,vote_svm,vote_xgb,vote_knn,mean_probability,consensus_repeat_fraction,criticality,supercritical,areaSAS,conservation,is_active_site_residue,nearest_active_site_residue,nearest_active_site_distance_A
+92,C92,C,Trefoil type-P,5,1,1,1,1,1,0.7806301550376413,1.0,Other,False,0.0,-1.438,False,Asp282 (substrate binding),29.583106994628903
+136,Y136,Y,Trefoil type-P,4,1,1,1,1,0,0.7735679861191535,1.0,Other,False,0.2810178590049759,-1.432,False,Asp282 (substrate binding),32.23857116699219
+152,L152,L,N-terminal beta-sheet,4,0,1,1,1,1,0.7521867996521555,1.0,Other,False,-1.42e-14,-1.074,False,Arg600 (substrate binding),34.36745071411133
+179,L179,L,N-terminal beta-sheet,3,0,1,0,1,1,0.6707263221600158,0.6,Other,False,0.2198508452545269,-0.392,False,Arg600 (substrate binding),27.39783096313477
+180,H180,H,N-terminal beta-sheet,3,1,0,1,1,0,0.6820047254896624,0.6,Other,False,18.989901565049955,-0.882,False,Arg600 (substrate binding),25.660818099975582
+247,Q247,Q,N-terminal beta-sheet,4,1,1,1,1,0,0.7424489931471683,1.0,Other,False,3.065471164477742,-1.043,False,Asp282 (substrate binding),24.705039978027344
+250,T250,T,N-terminal beta-sheet,4,1,1,0,1,1,0.727059765634202,1.0,Other,False,1.7715432978038308,-0.974,False,Arg600 (substrate binding),26.89512634277344
+258,T258,T,N-terminal beta-sheet,4,1,1,1,1,0,0.7339660631192153,1.0,Other,False,1.855681917274836,-0.912,False,Trp613 (substrate binding),16.867679595947266
+280,N280,N,N-terminal beta-sheet,5,1,1,1,1,1,0.8595520768414622,1.0,Other,False,1.2607975437538528,-1.004,False,Asp282 (substrate binding),4.570699214935303
+282,D282,D,N-terminal beta-sheet,5,1,1,1,1,1,0.782287980254241,1.0,Other,False,3.1479971464825383,-1.453,True,Arg600 (substrate binding),2.8096961975097656
+294,S294,S,N-terminal beta-sheet,4,1,1,1,1,0,0.6794586748997595,0.4,Other,False,0.2176635192631693,-0.546,False,Arg600 (substrate binding),7.583911895751953
+296,P296,P,N-terminal beta-sheet,5,1,1,1,1,1,0.862597180231924,1.0,Other,False,0.073685365,-1.356,False,Arg600 (substrate binding),13.311376571655272
+302,E302,E,N-terminal beta-sheet,4,1,1,1,0,1,0.7012220296287845,0.6,Other,False,0.1580290576435317,-0.734,False,Trp613 (substrate binding),28.798036575317383
+315,S315,S,N-terminal beta-sheet,4,1,1,1,1,0,0.7706388129087206,1.0,Other,False,0.1858025281936619,-1.061,False,Asp282 (substrate binding),14.178316116333008
+317,A317,A,N-terminal beta-sheet,3,1,1,0,1,0,0.7384946389140226,0.8,Other,False,0.6603326060370307,-0.924,False,Asp282 (substrate binding),13.053874015808104
+319,D319,D,N-terminal beta-sheet,3,0,1,0,1,1,0.697348634731189,0.6,Other,False,0.2701034898780392,-0.163,False,Asp282 (substrate binding),15.129629135131836
+331,R331,R,N-terminal beta-sheet,4,1,1,1,1,0,0.7184026019503145,0.8,Other,False,6.654969856562829,-0.593,False,Asp282 (substrate binding),18.431974411010746
+332,S332,S,N-terminal beta-sheet,3,1,1,0,1,0,0.6825607592807473,0.6,Other,False,1.4629971060116276,-0.705,False,Asp282 (substrate binding),18.88107681274414
+338,D338,D,N-terminal beta-sheet,3,1,1,0,1,0,0.7216813306513752,0.8,Other,False,13.138088074923914,-1.214,False,Arg600 (substrate binding),22.276350021362305
+340,Y340,Y,N-terminal beta-sheet,4,1,1,1,1,0,0.6986250176022443,0.6,Other,False,15.588889949166102,-0.878,False,Arg600 (substrate binding),22.33025360107422
+344,G344,G,N-terminal beta-sheet,5,1,1,1,1,1,0.8196602414589471,1.0,Other,False,4.149859908800067,-1.36,False,Trp613 (substrate binding),27.662094116210938
+354,Y354,Y,N-terminal beta-sheet,5,1,1,1,1,1,0.7982424638582508,1.0,HDHB,False,-1.42e-14,-1.129,False,Arg600 (substrate binding),14.434165000915527
+364,P364,P,Catalytic (beta/alpha)8 barrel,5,1,1,1,1,1,0.8259557165318627,1.0,Other,False,0.088586202,-0.901,False,Trp613 (substrate binding),13.001070022583008
+365,P365,P,Catalytic (beta/alpha)8 barrel,5,1,1,1,1,1,0.8549876093173386,1.0,Other,False,0.086350677,-1.059,False,Trp516 (substrate binding),12.173808097839355
+368,G368,G,Catalytic (beta/alpha)8 barrel,4,1,1,0,1,1,0.7008309953228002,0.6,Other,False,-1.42e-14,-0.485,False,Trp613 (substrate binding),11.138387680053713
+370,G370,G,Catalytic (beta/alpha)8 barrel,5,1,1,1,1,1,0.8561572006537655,1.0,Other,False,-1.42e-14,-1.27,False,His674 (substrate binding),11.305450439453123
+378,Y378,Y,Catalytic (beta/alpha)8 barrel,5,1,1,1,1,1,0.7468159609731748,0.8,HDHB,False,10.101268311471046,-1.329,False,Trp376 (substrate binding),3.84643816947937
+399,D399,D,Catalytic (beta/alpha)8 barrel,5,1,1,1,1,1,0.8473958614203297,1.0,Other,False,0.084141345,-1.373,False,His674 (substrate binding),12.955193519592283
+402,W402,W,Catalytic (beta/alpha)8 barrel,5,1,1,1,1,1,0.7657628587918446,1.0,Other,False,0.002821763,-0.735,False,Trp516 (substrate binding),3.537844181060791
+407,Y407,Y,Catalytic (beta/alpha)8 barrel,3,1,1,1,0,0,0.7025428037843066,0.8,Other,False,0.430177402884297,-1.195,False,Ile441 (substrate binding),2.7029521465301514
+441,I441,I,Catalytic (beta/alpha)8 barrel,3,1,0,1,0,1,0.6840356943954072,1.0,Other,False,2.1014210652782026,-1.355,True,Trp516 (substrate binding),3.425332307815552
+443,D443,D,Catalytic (beta/alpha)8 barrel,5,1,1,1,1,1,0.8065718942050191,1.0,Other,False,4.291569368106138,-1.363,False,Met519 (substrate binding),3.39520001411438
+488,P488,P,Catalytic (beta/alpha)8 barrel,5,1,1,1,1,1,0.7823742940484866,1.0,Other,False,-1.42e-14,-0.822,False,Met519 (substrate binding),8.761688232421875
+516,W516,W,Catalytic (beta/alpha)8 barrel,5,1,1,1,1,1,0.8489515508489032,1.0,Other,False,2.024032554140973,-1.482,True,Trp613 (substrate binding),3.1323044300079346
+518,D518,D,Catalytic (beta/alpha)8 barrel,5,1,1,1,1,1,0.8011866331817871,1.0,Other,False,14.707414739775189,-1.534,True,Met519 (substrate binding),1.3338505029678345
+541,P541,P,Catalytic (beta/alpha)8 barrel,4,1,1,0,1,1,0.7305181057964969,0.6,Other,False,13.923852656202584,-0.987,False,Asp282 (substrate binding),17.465328216552734
+606,H606,H,Catalytic (beta/alpha)8 barrel,4,1,1,1,0,1,0.7712494923585499,1.0,HDHB,False,0.0115176976169806,-0.608,False,Arg600 (substrate binding),6.141438007354736
+637,L637,L,Catalytic (beta/alpha)8 barrel,3,0,1,1,1,0,0.7271913680390254,1.0,Other,False,1.7659410704871874,-0.992,False,Arg600 (substrate binding),11.251662254333496
+669,P669,P,Catalytic (beta/alpha)8 barrel,3,1,0,1,1,0,0.6964937431879671,0.4,Other,False,-1.42e-14,-1.368,False,Trp613 (substrate binding),9.69959831237793
+673,N673,N,Catalytic (beta/alpha)8 barrel,5,1,1,1,1,1,0.7873573804663762,1.0,Other,False,2.9471579919860886,-0.926,False,His674 (substrate binding),1.3378846645355225
+683,E683,E,Catalytic (beta/alpha)8 barrel,5,1,1,1,1,1,0.7766584540446753,1.0,Other,False,9.208215385427096,-1.501,False,Trp376 (substrate binding),8.070093154907227
+703,Y703,Y,Catalytic (beta/alpha)8 barrel,4,1,1,1,1,0,0.6646984157653094,0.8,Other,False,2.4707744138842145,-1.495,False,His674 (substrate binding),13.855108261108398
+707,P707,P,Catalytic (beta/alpha)8 barrel,3,0,1,1,1,0,0.7447889935931893,0.8,HDHB,False,0.2017929244613867,-1.233,False,Trp613 (substrate binding),21.55897521972656
+710,Y710,Y,Catalytic (beta/alpha)8 barrel,5,1,1,1,1,1,0.7680283936561778,1.0,HDHB,True,-1.42e-14,-1.432,False,Trp613 (substrate binding),18.349023818969727
+720,G720,G,Catalytic (beta/alpha)8 barrel,5,1,1,1,1,1,0.7406823952334307,1.0,Other,False,0.1921791739735283,-0.929,False,Trp613 (substrate binding),18.772689819335938
+722,T722,T,Proximal beta-sheet,5,1,1,1,1,1,0.7856576383665839,1.0,Other,False,3.997148276679681,-1.069,False,Trp613 (substrate binding),16.057262420654297
+747,G747,G,Proximal beta-sheet,5,1,1,1,1,1,0.8697123056853991,1.0,Other,False,0.3420474133236126,-1.487,False,Trp613 (substrate binding),18.92279624938965
+753,T753,T,Proximal beta-sheet,4,1,1,1,0,1,0.7142184424059129,0.8,Other,False,1.6672981426004867,-0.658,False,Trp618 (substrate binding),18.44477653503418
+754,P754,P,Proximal beta-sheet,5,1,1,1,1,1,0.7661763534458161,1.0,Other,False,3.598641628818868,-1.4,False,Trp618 (substrate binding),14.92318058013916
+815,N815,N,Proximal beta-sheet,4,1,1,0,1,1,0.7330925666571437,1.0,Other,False,8.571419898,-0.914,False,Trp618 (substrate binding),20.759145736694336
+821,G821,G,Distal beta-sheet,4,1,1,0,1,1,0.7064170213430858,0.8,Other,False,16.95940924309393,-1.42,False,Trp613 (substrate binding),31.734375
+833,T833,T,Distal beta-sheet,4,1,1,0,1,1,0.7694331207822838,1.0,Other,False,2.098636955919986,-1.005,False,His674 (substrate binding),17.817947387695312

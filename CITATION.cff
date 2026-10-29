@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the associated manuscript."
+title: "Uncovering novel pathogenic hotspots in the Pompe disease target using graph-based features and ensemble machine learning — analysis code"
+type: software
+authors:
+  - family-names: "K"
+    given-names: "Sreeharsh"
+    affiliation: "University of Hyderabad"
+  - family-names: "Kiran"
+    given-names: "Manjari"
+    affiliation: "University of Hyderabad"
+  - family-names: "Akif"
+    given-names: "Mohd."
+    affiliation: "University of Hyderabad"
+license: MIT
+version: 1.0.0
+date-released: 2026-10-28
+keywords: [Pompe disease, acid alpha-glucosidase, residue interaction network, machine learning, variant effect prediction]

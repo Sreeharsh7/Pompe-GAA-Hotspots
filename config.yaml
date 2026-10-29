@@ -1,0 +1,81 @@
+# Analysis configuration for the GAA structural hotspot study.
+# Every script reads this file; change values here, not in code.
+
+seed: 42
+
+paths:
+  raw: data/raw
+  processed: data/processed
+  tables: results/tables
+  figures_main: results/figures/main
+  figures_supp: results/figures/supplementary
+  supplementary: results/supplementary
+
+structure:
+  pdb: data/raw/structure/5NN3_relaxed.pdb
+  chain: A
+  uniprot: P10253
+  first_residue: 81
+  last_residue: 952
+
+# Residues with zero betweenness are retained; betweenness enters the
+# models as log10(1 + betweenness).
+features:
+  - degree
+  - log_betweenness
+  - closeness
+  - burt
+  - authority
+  - page_rank
+  - k_core
+  - kdhydro
+  - areaSAS
+  - areaSES
+  - relSESA
+  - phi
+  - psi
+  - conservation
+
+ml:
+  outer_folds: 10
+  outer_repeats: 5
+  inner_folds: 5
+  scoring: roc_auc
+  vote_threshold: 0.5        # probability cut-off for the threshold metrics in model_performance.csv
+  # A model votes for a residue when its mean OOF probability reaches the model's
+  # 90 %-specificity threshold (each model flags at most 10 % of residues without a
+  # reported mutation). ADASYN-trained models are calibrated to balanced classes, so a
+  # fixed 0.5 cut-off flags ~1/3 of all unannotated residues; see vote_threshold_sensitivity.csv.
+  vote_specificity: 0.90
+  consensus_min_votes: 3     # of 5 models
+  rf_random_search_iter: 60  # RF grid (864 combinations) is sampled; all other grids are exhaustive
+
+criticality:
+  kbins: 4                   # K-means bins on degree and log betweenness
+  n_supercritical: 10
+
+sss:
+  min_frequency: 0.001       # 0.1 % floor for residues absent from the alignment
+  below_one_percent: 0.005   # ConSurf reports "<1%"; taken as 0.5 %
+  evoscore_cap: 3.0          # -log10(0.001); EVOscore is clipped to [0, cap] and divided by cap
+  pca_variance: 0.99
+
+benchmark:
+  pathogenic: [Pathogenic, Likely pathogenic, Pathogenic/Likely pathogenic]
+  benign: [Benign, Likely benign, Benign/Likely benign, "Benign, other", "Benign/Likely benign, other"]
+  bootstrap: 2000
+
+# Domain boundaries as used in the manuscript.
+domains:
+  - [Trefoil type-P, 81, 136]
+  - [N-terminal beta-sheet, 137, 357]
+  - [Catalytic (beta/alpha)8 barrel, 358, 720]
+  - [Proximal beta-sheet, 721, 820]
+  - [Distal beta-sheet, 821, 952]
+
+# Active-site and substrate-binding residues of mature GAA (Roig-Zamboni et al., 2017;
+# acarbose complex). Verify against ref. 23 before citing.
+active_site:
+  nucleophile: [518]
+  acid_base: [616]
+  substrate_binding: [282, 376, 404, 441, 481, 516, 519, 600, 613, 618, 649, 674]

@@ -1,0 +1,32 @@
+{
+  "lr": {
+    "params": {
+      "C": 0.1,
+      "max_iter": 100,
+      "penalty": "l2",
+      "solver": "saga"
+    },
+    "inner_cv_auc": 0.8006749986816433
+  },
+  "rf": {
+    "params": {
+      "n_estimators": 100,
+      "min_samples_split": 5,
+      "min_samples_leaf": 4,
+      "max_features": "sqrt",
+      "max_depth": 10,
+      "criterion": "entropy",
+      "bootstrap": true
+    },
+    "inner_cv_auc": 0.7902300972068415
+  },
+  "xgb": {
+    "params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100,
+      "subsample": 1.0
+    },
+    "inner_cv_auc": 0.7861871363532493
+  }
+}

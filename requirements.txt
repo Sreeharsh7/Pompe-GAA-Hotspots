@@ -1,0 +1,20 @@
+# Exact versions used to produce the results in results/
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.17.1
+scikit-learn==1.5.2
+imbalanced-learn==0.12.3
+xgboost==2.0.3
+python-igraph==0.11.9
+shap==0.46.0
+biopython==1.85
+matplotlib==3.9.2
+seaborn==0.13.2
+matplotlib-venn==1.1.2
+openpyxl==3.1.5
+reportlab==5.1.0
+pillow==10.4.0
+pyyaml
+jupyter
+nbconvert
+pytest
